@@ -1,0 +1,306 @@
+
+body {
+    margin: 0px ;
+    margin-bottom: 100px;
+
+}
+
+.navigation-wrapper {
+    height: 10px;
+    background-color: black;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 65px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+
+
+.left-column{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
+
+.logo-wrapper img{
+background-color: black;
+position: relative;
+right: 60px;
+
+}
+ .navigation-wrapper>.center-column{
+text-decoration: none;
+width: 70%;
+
+}
+.navigation-wrapper> .center-column>.name {
+    display: grid
+    grid-template-columns: auto;
+    color: rgb(191, 191, 120);
+    margin: 0px;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin: bottom 0px;
+    font-size: 12px;
+    font-family: "lato";
+    font-weight: bold;
+
+}
+
+.navigation-wrapper>.center-column>.nav-link a {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 0px;
+}
+
+
+a {
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    font-size: 1.0em;
+    font-family: "lato";
+  font-weight: bold;
+}
+.nav-link{
+display:inline-flex;
+align-items: center;
+justify-content: space-between;
+background-color: black;
+color: white;
+
+
+
+}
+
+.center-column > .text-wrapper {
+    display: inline;
+    justify-content: space-between;
+    color: rgb(123, 120, 120);
+    font-family: "Ubuntu-Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 50px;
+  }
+  .text-wrapper i {
+    color: #cbcbcb;
+    
+  }
+
+
+.right-column{
+display: inline-flex;
+align-items: center;
+justify-items: center;
+justify-content: flex-end;
+width: 45%;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+
+    
+    }
+
+
+.botones> .btn{
+    display: -webkit-inline-flex;
+    position: relative;
+    margin-right: 10px;
+    margin: left 10px; 
+    margin-top: 15px;
+    margin-bottom: 45px;
+    border-radius: 4px;
+    background-color: rgb(48, 46, 46);
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: "lato";
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    justify-content: space-between;
+    cursor: pointer;
+   
+}
+
+.btn> i{
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botones img{
+    background-color: rgb(238, 235, 235);
+    font-size: 40px;
+    margin-top: 30px;
+    margin-right: 8px;
+    margin-left: 1px;
+    margin-top: 50px;
+    opacity: 40%;
+}
+
+.container {
+    display: flex;
+    background-color: #2e3032;
+}
+
+.container> .container-text {
+    display: flex;
+    width: 1000%;
+    height: 1000%;
+    margin-left: 40px;
+    margin-top: 30px;
+    flex-direction: column;
+    padding: 0px;    
+    
+}
+.container> .container-text h3{
+    font-family: "lato", sans-serif;
+    font-size: 25px;
+    color: rgb(213, 202, 202);
+    letter-spacing: 1px;
+    line-height: 30px;
+    
+}
+
+.container-text strong{
+    color:white;
+}
+
+.container> .container-text p{
+
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+    
+}
+
+.container-botones> .btns {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    
+}
+
+.btns> .btng {
+    color: black;
+    background-color: rgb(17, 233, 17);
+    font-size: 25px;
+    border-radius: 2px;
+    border: 2px;
+    height: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    font-family: 'lato';
+    font-weight: bold;
+
+
+}
+
+.btns> .btnb {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 2px;
+    border: 2px;
+    margin: 5px;
+    height: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Helvetica';
+   
+
+}
+
+.contenedor {
+    padding: 60px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    width: 55%;
+    text-align: right;
+
+}
+.txt {
+    font-family: "lato", sans-serif;
+    font-size: 25px;
+    color: rgb(213, 202, 202);
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 200px;
+}
+.parrafo p {
+    font-family: 'arial', sans-serif;
+    color: white;
+    margin-right: 290px;
+    font-weight: bold;
+
+}
+
+span{
+    color: rgb(68, 161, 193);
+    font-weight: bold;
+
+}
+.parrafo> .imagen {
+
+    width: 500px;
+    height: 350px;
+    margin-left: 180px;
+    
+}
+
+.footer{
+    background: black;
+    padding: 0 0 50px 0;
+
+}
+
+.table-footer
+th {
+    border: 0.6px solid rgb(160 160 160);
+    padding: 10px 50px;
+    background-color: rgb(48, 46, 46);
+    font-family: lato;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 2);
+    width: 300px;
+    cursor: pointer;
+    
+   
+  }
+
+  .table-footer
+th span {
+    
+  font-size: 1.5rem;
+  font-family: "Afacad", sans-serif;
+  font-weight: bold;
+  font-style: inherit;
+  letter-spacing: 0px;
+  color: white;
+}
